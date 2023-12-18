@@ -1,4 +1,4 @@
-*{
+body{
     background-color: #fefbef
 }
 
@@ -36,4 +36,34 @@
 
 .hidden {
     display: none;
+}
+
+.post {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.post:hover {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #f04e3288;
+}
+
+.post-information{
+    width: 60%;
+}
+
+.post-image{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+
+}
+
+.post-image img{
+    width: 80%;
+    display: flex;
+    border-radius: 5px;
 }
