@@ -1,4 +1,4 @@
-*{
+body{
     background-color: #fefbef
 }
 
@@ -37,3 +37,30 @@
 .hidden {
     display: none;
 }
+
+
+.about_us{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.images-us{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.description-us{
+    font-size: 20px;
+}
+.img-us{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-us img{
+    width: 80%;
+}
+
