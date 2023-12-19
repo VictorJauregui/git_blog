@@ -120,6 +120,7 @@ body{
 }
 
 .post {
+    padding: 5px;
     width: 100%;
     display: flex;
     margin-top: 50px;
@@ -127,7 +128,6 @@ body{
 
 .post:hover {
     cursor: pointer;
-    padding: 5px;
     border-radius: 10px;
     background-color: #f04e3288;
 }
